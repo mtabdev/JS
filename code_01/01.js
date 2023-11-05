@@ -9,3 +9,11 @@ for (let index = 0; index < 5; index++) {
 }
 console.log(acId);
 console.table([acId,accName,accEmail,accAny]);
+
+/*
+prefer not to use var beacuse of block and local scope issue
+
+*/
+
+//typeof(null) is object and typeof(undefined) is undefined 
+//null means the value is not there and undefined means the value is not defined.
